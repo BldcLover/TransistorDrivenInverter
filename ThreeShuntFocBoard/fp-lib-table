@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "BLDC")(type "KiCad")(uri "${KIPRJMOD}/Footprints/BLDC.pretty")(options "")(descr ""))
+  (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/Footprints")(options "")(descr ""))
+  (lib (name "Graphics")(type "KiCad")(uri "${KIPRJMOD}/Graphics")(options "")(descr ""))
+)

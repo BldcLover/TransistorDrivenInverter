@@ -1,0 +1,2026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\TI\bldc\BLDC\BLDC.kicad_sch</source>
+    <date>06-06-2022 8:39:44 PM</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BLDC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>470uF 63V</value>
+      <footprint>BLDC:470uF63V</footprint>
+      <fields>
+        <field name="ORDER">https://www.evelta.com/470uf-63v-electrolytic-capacitor/?gclid=Cj0KCQjwsdiTBhD5ARIsAIpW8CLNioQG1Yb-twep7ZO7iIlyY17hiimtvaM4HBIh_3rjKyQdpjIIl8waArr-EALw_wcB</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="ORDER" value="https://www.evelta.com/470uf-63v-electrolytic-capacitor/?gclid=Cj0KCQjwsdiTBhD5ARIsAIpW8CLNioQG1Yb-twep7ZO7iIlyY17hiimtvaM4HBIh_3rjKyQdpjIIl8waArr-EALw_wcB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb0ccef8-048e-4eb9-bae2-84054760a269</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100uF 63V</value>
+      <footprint>BLDC:100uF63V</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dfbdc3a-d444-4cc8-9654-c22d6afe3a4c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1d89b26-4d95-4071-8581-c5ea7888ebee</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20cfefce-84a7-465f-8694-824528992cb3</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>47uF 63V</value>
+      <footprint>BLDC:220uF63V</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6643354a-cfdc-4f23-b267-0af38152c61c</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf429770-34c8-4555-b8ee-c02f3a7c3189</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97d22db5-50c0-4468-85db-80e41f1d65db</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>476e8d55-fb89-4b54-a586-22f77e12023f</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10947ee6-f83f-4dc1-a808-d7897f16f5bf</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>47uF 63V</value>
+      <footprint>BLDC:220uF63V</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98ed8f5d-61f4-47eb-ad2d-c914196be87b</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77dc1cf9-4ffb-4dfd-82dd-b4fc1a4a1828</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>220uF 16V</value>
+      <footprint>BLDC:220uF63V</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3b723c0-a1c4-4a81-9dcb-f508b1d212c6</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9120b6e6-811b-4f18-b596-197b9063554b</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e18133e9-4e44-4c83-9389-36227fc6113c</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>220uF 16V</value>
+      <footprint>BLDC:220uF63V</footprint>
+      <fields>
+        <field name="ORDER">https://www.evelta.com/220uf-16v-electrolytic-capacitor/</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="ORDER" value="https://www.evelta.com/220uf-16v-electrolytic-capacitor/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d60b565-51d7-4381-a2ee-f5ab8559cc7a</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d1d7f63-5fc1-4f46-8da3-ecf42005451f</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b6b9e79-b929-4806-8af8-fa1c124c0363</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2cd421c-96c4-401f-8cfc-6191bd503233</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>47uF 63V</value>
+      <footprint>BLDC:220uF63V</footprint>
+      <fields>
+        <field name="ORDER">https://www.evelta.com/47uf-63v-electrolytic-capacitor/</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="ORDER" value="https://www.evelta.com/47uf-63v-electrolytic-capacitor/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67c5ef16-d489-498f-a474-02fa4b687f2b</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cdb2970-72fc-4c8b-ac28-c3d7bd583ec1</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>10nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>370d6388-f149-43c9-85b1-d58586462c40</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4394fda1-79ef-4c84-b449-9da42f3a1069</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>47uF 63V</value>
+      <footprint>BLDC:220uF63V</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4070d697-3c18-48db-8f5f-538be43832e3</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>10nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d51b432d-78a9-43ad-a401-a2c86a16bd01</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>10nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc0888f2-71e9-4412-bca4-34661257c910</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>10nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1183147b-5d61-4c54-b3fd-a3f7752af1ba</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>BLDC:1206_C</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f344936-6c7d-4f57-b23e-d96784891a1b</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4007</value>
+      <footprint>BLDC:ZenerDiode_S1M</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b10dbea-1a56-41c6-a46d-dc8837a75073</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>BLDC:ZenerDiode_S1M</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f760e56d-3d28-40ba-b01a-c6531cf9c9cb</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4007</value>
+      <footprint>BLDC:ZenerDiode_S1M</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>561a4400-d4c5-493b-aef6-b440d247201e</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>BLDC:ZenerDiode_S1M</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0ba26dc-50bb-417b-9383-016bc0979177</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4007</value>
+      <footprint>BLDC:ZenerDiode_S1M</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>847b8522-2fa5-4478-a88e-afcb7e394134</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>BLDC:ZenerDiode_S1M</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96a57de4-2029-4469-b37c-5d20b8ca30a7</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>BLDC:1206_LED</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>139ea84d-95d5-453a-b2ce-5d936e94c5a3</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>BLDC:1206_LED</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d761593b-d0a4-4133-9b18-6ba1cda84c10</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>FerriteBead</value>
+      <footprint>BLDC:ZenerDiode_S1M</footprint>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>088d380d-983f-4064-b00d-69457223e27d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>BLDC:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>869b82eb-b5d2-40e0-9c8c-1cda7531d9bd</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03</value>
+      <footprint>BLDC:Socket_Strip_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac4e239c-a5a3-427b-b702-2a07fec9c599</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>BLDC:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c44b049-28c3-466f-8e98-e1a67a1ba55d</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>BLDC:Socket_Strip_Straight_oddeven_2x06_Pitch2.54mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdbe9c0e-90f3-49ee-a653-8b7b3bda7980</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x05</value>
+      <footprint>BLDC:Socket_Strip_Straight_1x05_Pitch2.54mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c65df0ee-ef19-4f3f-9375-747b7a07fe77</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x05</value>
+      <footprint>BLDC:Socket_Strip_Straight_1x05_Pitch2.54mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c1916f2-ce45-47a9-a26d-93b508cc4afb</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_2_Open</value>
+      <footprint>BLDC:JUMPER</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c76c4ba9-6b0b-4128-9746-5cd3f34d4e20</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_2_Open</value>
+      <footprint>BLDC:JUMPER</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b3a6d3e-d172-408f-ae4d-9523d591132d</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>SS8050</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8050-G.pdf</datasheet>
+      <fields>
+        <field name="order">https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8050" description="0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"/>
+      <property name="order" value="https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afb30e05-24a2-479c-a37a-eebda73d3d4b</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT5551L</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-MMBT5551.pdf</datasheet>
+      <fields>
+        <field name="Order">https://www.evelta.com/npn-bipolar-transistor-bjt-160v-600ma/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5551L" description="0.6A Ic, 160V Vce, NPN Transistor, SOT-23"/>
+      <property name="Order" value="https://www.evelta.com/npn-bipolar-transistor-bjt-160v-600ma/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4ae9681-2de0-4683-ba44-3d175aba59a1</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>SS8550</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8550-SOT-23.pdf</datasheet>
+      <fields>
+        <field name="Order">https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8550" description="0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"/>
+      <property name="Order" value="https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>135e29fd-f6ba-4cfc-9a12-93215c6eb604</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>SS8550</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8550-SOT-23.pdf</datasheet>
+      <fields>
+        <field name="Order">https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8550" description="0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"/>
+      <property name="Order" value="https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>140542b2-5dad-4795-be13-2236bb84abf5</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>SS8050</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8050-G.pdf</datasheet>
+      <fields>
+        <field name="order">https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8050" description="0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"/>
+      <property name="order" value="https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38fe17cb-3331-46ad-b2ba-f2ef19acb617</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>SS8550</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8550-SOT-23.pdf</datasheet>
+      <fields>
+        <field name="Order">https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8550" description="0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"/>
+      <property name="Order" value="https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc49c282-46cb-45ca-8939-9611f17a70f9</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>IRF540N</value>
+      <footprint>BLDC:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <fields>
+        <field name="ORDER">https://www.ktron.in/product/irf540-power-mosfet-to-220/?utm_term=&amp;utm_campaign=productShoppingAds&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=6332829093&amp;hsa_cam=11693228393&amp;hsa_grp=112453756014&amp;hsa_ad=481888528956&amp;hsa_src=u&amp;hsa_tgt=pla-296303633664&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=CjwKCAjwjtOTBhAvEiwASG4bCM8S1OEEHSpAHz-7ijXx-QblPbNKCRdWir2WJtzWqEPK8BmlGsEIOxoCWcIQAvD_BwE</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="ORDER" value="https://www.ktron.in/product/irf540-power-mosfet-to-220/?utm_term=&amp;utm_campaign=productShoppingAds&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=6332829093&amp;hsa_cam=11693228393&amp;hsa_grp=112453756014&amp;hsa_ad=481888528956&amp;hsa_src=u&amp;hsa_tgt=pla-296303633664&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=CjwKCAjwjtOTBhAvEiwASG4bCM8S1OEEHSpAHz-7ijXx-QblPbNKCRdWir2WJtzWqEPK8BmlGsEIOxoCWcIQAvD_BwE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00f97476-a9d5-45ad-8c39-b780a72d7c7c</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>IRF540N</value>
+      <footprint>BLDC:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <fields>
+        <field name="ORDER">https://www.ktron.in/product/irf540-power-mosfet-to-220/?utm_term=&amp;utm_campaign=productShoppingAds&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=6332829093&amp;hsa_cam=11693228393&amp;hsa_grp=112453756014&amp;hsa_ad=481888528956&amp;hsa_src=u&amp;hsa_tgt=pla-296303633664&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=CjwKCAjwjtOTBhAvEiwASG4bCM8S1OEEHSpAHz-7ijXx-QblPbNKCRdWir2WJtzWqEPK8BmlGsEIOxoCWcIQAvD_BwE</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="ORDER" value="https://www.ktron.in/product/irf540-power-mosfet-to-220/?utm_term=&amp;utm_campaign=productShoppingAds&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=6332829093&amp;hsa_cam=11693228393&amp;hsa_grp=112453756014&amp;hsa_ad=481888528956&amp;hsa_src=u&amp;hsa_tgt=pla-296303633664&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=CjwKCAjwjtOTBhAvEiwASG4bCM8S1OEEHSpAHz-7ijXx-QblPbNKCRdWir2WJtzWqEPK8BmlGsEIOxoCWcIQAvD_BwE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>942ec7f7-6f73-46ca-bcbf-c78e567a9c75</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>SS8050</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8050-G.pdf</datasheet>
+      <fields>
+        <field name="order">https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8050" description="0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"/>
+      <property name="order" value="https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6541474b-5a03-4c11-8cfc-c2c105e59163</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>MMBT5551L</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-MMBT5551.pdf</datasheet>
+      <fields>
+        <field name="Order">https://www.evelta.com/npn-bipolar-transistor-bjt-160v-600ma/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5551L" description="0.6A Ic, 160V Vce, NPN Transistor, SOT-23"/>
+      <property name="Order" value="https://www.evelta.com/npn-bipolar-transistor-bjt-160v-600ma/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9749dcf6-def1-49af-abba-537cb93ab742</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>SS8550</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8550-SOT-23.pdf</datasheet>
+      <fields>
+        <field name="Order">https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8550" description="0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"/>
+      <property name="Order" value="https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d86cb62b-5365-4bb7-be0a-38bcaeac1fcd</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>SS8550</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8550-SOT-23.pdf</datasheet>
+      <fields>
+        <field name="Order">https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8550" description="0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"/>
+      <property name="Order" value="https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a502c077-deb5-4ec2-9b70-d0a09d9b59f8</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>SS8050</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8050-G.pdf</datasheet>
+      <fields>
+        <field name="order">https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8050" description="0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"/>
+      <property name="order" value="https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3a0a5c9-9f0e-4277-9d8e-8901ed5ebcbd</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>SS8550</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8550-SOT-23.pdf</datasheet>
+      <fields>
+        <field name="Order">https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8550" description="0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"/>
+      <property name="Order" value="https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d66b7940-6d1a-497d-9ede-a07ac3d6ddec</tstamps>
+    </comp>
+    <comp ref="Q15">
+      <value>IRF540N</value>
+      <footprint>BLDC:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <fields>
+        <field name="ORDER">https://www.ktron.in/product/irf540-power-mosfet-to-220/?utm_term=&amp;utm_campaign=productShoppingAds&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=6332829093&amp;hsa_cam=11693228393&amp;hsa_grp=112453756014&amp;hsa_ad=481888528956&amp;hsa_src=u&amp;hsa_tgt=pla-296303633664&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=CjwKCAjwjtOTBhAvEiwASG4bCM8S1OEEHSpAHz-7ijXx-QblPbNKCRdWir2WJtzWqEPK8BmlGsEIOxoCWcIQAvD_BwE</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="ORDER" value="https://www.ktron.in/product/irf540-power-mosfet-to-220/?utm_term=&amp;utm_campaign=productShoppingAds&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=6332829093&amp;hsa_cam=11693228393&amp;hsa_grp=112453756014&amp;hsa_ad=481888528956&amp;hsa_src=u&amp;hsa_tgt=pla-296303633664&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=CjwKCAjwjtOTBhAvEiwASG4bCM8S1OEEHSpAHz-7ijXx-QblPbNKCRdWir2WJtzWqEPK8BmlGsEIOxoCWcIQAvD_BwE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02be1198-f362-427e-9566-1c477191589f</tstamps>
+    </comp>
+    <comp ref="Q16">
+      <value>IRF540N</value>
+      <footprint>BLDC:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <fields>
+        <field name="ORDER">https://www.ktron.in/product/irf540-power-mosfet-to-220/?utm_term=&amp;utm_campaign=productShoppingAds&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=6332829093&amp;hsa_cam=11693228393&amp;hsa_grp=112453756014&amp;hsa_ad=481888528956&amp;hsa_src=u&amp;hsa_tgt=pla-296303633664&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=CjwKCAjwjtOTBhAvEiwASG4bCM8S1OEEHSpAHz-7ijXx-QblPbNKCRdWir2WJtzWqEPK8BmlGsEIOxoCWcIQAvD_BwE</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="ORDER" value="https://www.ktron.in/product/irf540-power-mosfet-to-220/?utm_term=&amp;utm_campaign=productShoppingAds&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=6332829093&amp;hsa_cam=11693228393&amp;hsa_grp=112453756014&amp;hsa_ad=481888528956&amp;hsa_src=u&amp;hsa_tgt=pla-296303633664&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=CjwKCAjwjtOTBhAvEiwASG4bCM8S1OEEHSpAHz-7ijXx-QblPbNKCRdWir2WJtzWqEPK8BmlGsEIOxoCWcIQAvD_BwE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acf2ae17-733d-498e-86bc-6bd143375fa0</tstamps>
+    </comp>
+    <comp ref="Q17">
+      <value>SS8050</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8050-G.pdf</datasheet>
+      <fields>
+        <field name="order">https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8050" description="0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"/>
+      <property name="order" value="https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>364fb62f-f510-47ab-8806-1f286353f4e9</tstamps>
+    </comp>
+    <comp ref="Q18">
+      <value>MMBT5551L</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-MMBT5551.pdf</datasheet>
+      <fields>
+        <field name="Order">https://www.evelta.com/npn-bipolar-transistor-bjt-160v-600ma/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT5551L" description="0.6A Ic, 160V Vce, NPN Transistor, SOT-23"/>
+      <property name="Order" value="https://www.evelta.com/npn-bipolar-transistor-bjt-160v-600ma/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2aadec18-d1c6-45fa-9677-98a971cdaabc</tstamps>
+    </comp>
+    <comp ref="Q19">
+      <value>SS8550</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8550-SOT-23.pdf</datasheet>
+      <fields>
+        <field name="Order">https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8550" description="0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"/>
+      <property name="Order" value="https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c31a780-845d-4f6b-aa5a-cc11264cba3d</tstamps>
+    </comp>
+    <comp ref="Q20">
+      <value>SS8550</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8550-SOT-23.pdf</datasheet>
+      <fields>
+        <field name="Order">https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8550" description="0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"/>
+      <property name="Order" value="https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04cf1edf-d2d1-4785-b39a-5341d41625ac</tstamps>
+    </comp>
+    <comp ref="Q21">
+      <value>SS8050</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8050-G.pdf</datasheet>
+      <fields>
+        <field name="order">https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8050" description="0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"/>
+      <property name="order" value="https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e3fb191-e56b-4002-b412-d982366778c5</tstamps>
+    </comp>
+    <comp ref="Q22">
+      <value>SS8550</value>
+      <footprint>BLDC:SOT-23</footprint>
+      <datasheet>https://www.evelta.com/content/datasheets/217-SS8550-SOT-23.pdf</datasheet>
+      <fields>
+        <field name="Order">https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="S8550" description="0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"/>
+      <property name="Order" value="https://www.evelta.com/pnp-bipolar-transistor-25v-1-5a-sot-23/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47615c1a-e184-4352-b349-b0a6b12095c0</tstamps>
+    </comp>
+    <comp ref="Q23">
+      <value>IRF540N</value>
+      <footprint>BLDC:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <fields>
+        <field name="ORDER">https://www.ktron.in/product/irf540-power-mosfet-to-220/?utm_term=&amp;utm_campaign=productShoppingAds&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=6332829093&amp;hsa_cam=11693228393&amp;hsa_grp=112453756014&amp;hsa_ad=481888528956&amp;hsa_src=u&amp;hsa_tgt=pla-296303633664&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=CjwKCAjwjtOTBhAvEiwASG4bCM8S1OEEHSpAHz-7ijXx-QblPbNKCRdWir2WJtzWqEPK8BmlGsEIOxoCWcIQAvD_BwE</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="ORDER" value="https://www.ktron.in/product/irf540-power-mosfet-to-220/?utm_term=&amp;utm_campaign=productShoppingAds&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=6332829093&amp;hsa_cam=11693228393&amp;hsa_grp=112453756014&amp;hsa_ad=481888528956&amp;hsa_src=u&amp;hsa_tgt=pla-296303633664&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=CjwKCAjwjtOTBhAvEiwASG4bCM8S1OEEHSpAHz-7ijXx-QblPbNKCRdWir2WJtzWqEPK8BmlGsEIOxoCWcIQAvD_BwE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>661167de-08a7-4d66-89e3-4639bb2fb931</tstamps>
+    </comp>
+    <comp ref="Q24">
+      <value>IRF540N</value>
+      <footprint>BLDC:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <fields>
+        <field name="ORDER">https://www.ktron.in/product/irf540-power-mosfet-to-220/?utm_term=&amp;utm_campaign=productShoppingAds&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=6332829093&amp;hsa_cam=11693228393&amp;hsa_grp=112453756014&amp;hsa_ad=481888528956&amp;hsa_src=u&amp;hsa_tgt=pla-296303633664&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=CjwKCAjwjtOTBhAvEiwASG4bCM8S1OEEHSpAHz-7ijXx-QblPbNKCRdWir2WJtzWqEPK8BmlGsEIOxoCWcIQAvD_BwE</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <property name="ORDER" value="https://www.ktron.in/product/irf540-power-mosfet-to-220/?utm_term=&amp;utm_campaign=productShoppingAds&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=6332829093&amp;hsa_cam=11693228393&amp;hsa_grp=112453756014&amp;hsa_ad=481888528956&amp;hsa_src=u&amp;hsa_tgt=pla-296303633664&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=CjwKCAjwjtOTBhAvEiwASG4bCM8S1OEEHSpAHz-7ijXx-QblPbNKCRdWir2WJtzWqEPK8BmlGsEIOxoCWcIQAvD_BwE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e7d8a9e-a741-4669-991f-02afc5551318</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>180E 2W</value>
+      <footprint>BLDC:JUMPER</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f150070c-a635-4dcc-84a5-88c336bc731e</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09b7713f-7f29-43a2-83b0-c210078b7a95</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>510E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89944319-9581-4ec2-86d3-b2943d960045</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5044d076-5083-4d7d-a925-115e8917772d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>510E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b739818-3b5b-44ba-b70f-003f1f2cbd51</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>461a471e-718a-4620-9bc5-298be5920a04</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dc8fa06-b467-4532-98a2-70e012fa5fe2</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48a37795-a904-4bdd-9b44-0870398f2bff</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c486ddd-701e-442d-8427-589161b92aab</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bf0c1ee-03ee-4b08-96dd-737bf336c4e4</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>5.6K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fad595b6-5cfe-4564-bd3a-58a2e33ca5c3</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>47K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1956555-31b2-4ea3-8666-ee3ddee15486</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>177f401e-6389-403c-9a68-c2fcfde26efe</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>Rdiss 100E</value>
+      <footprint>BLDC:JUMPER</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>466a1fc9-671e-4e44-844e-d6b0d1be1ecf</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ac98c18-a685-41ea-b6f9-31f03819678f</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>510E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d39e46f-1e17-4e09-87de-3c327318754a</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1beb6068-a6dd-474f-b83c-58bc0d712df9</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>510E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b74eaab-9e0d-42b8-894d-0721d96b77bf</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4908ee96-772d-4b0e-a863-fdbcb0b8a1c2</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66f1cb2d-0519-4de9-a075-a53676af2a8b</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10bbf460-1f38-4a94-b0f2-0a67c4c78917</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8751092f-2bc7-4878-a691-b36262a17e9c</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>100E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a84285f-f4fc-42d2-8159-ad3a507364ff</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2cf8bc7-1f39-43e3-aead-2bc25b6479cd</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78b4e940-da38-44c8-9f32-88307e2335aa</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2575b14a-cba9-4524-9bcd-00aa5f38d134</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>510E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efdb9ca9-04e5-498d-bf42-bb02452298e8</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80b07d8e-3592-4725-8d0c-c78283b7dee3</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>510E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21d542a1-5fc1-43c3-9712-105ea9e65722</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1385dfbf-eebc-4e7f-a399-61777eeeae11</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>100E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d283a44-6789-4edb-a05d-a9d3003d6456</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfc017fb-d709-4080-b23e-c53e8c1bf343</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39bdca50-f8ae-47bb-8d46-74aa31a87ec1</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>5mΩ</value>
+      <footprint>BLDC:JUMPER</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7e0ec5e-a899-46e0-8665-a74e5cf7054c</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>100E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e587e764-91a5-438a-a5e2-e2620ec211a6</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce19be58-a117-452f-8dfc-c93f0854313b</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>10K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>501e48f7-96b8-487a-8788-86ab31710a4f</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>10K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dc8d3aa-b8ca-463b-aa39-03c5ac2d641c</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>1K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39430df5-a2d0-4443-98dc-140b0fd7257f</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>1K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e77f0e7c-b365-4102-9d8a-0ea1073742f5</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f855ee51-ab49-45b6-a538-7dd80a298c9c</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd94387e-e9b8-4b7f-97b6-06919513f946</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>2.2K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4beb7565-0e8e-4b66-ae36-06be5f0f69a4</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>3.3K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f290038b-bce2-4196-b837-c3ed1294cec2</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>3.3K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5447abb-4777-4914-9a6e-e3dd1f31354c</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>3.3K</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>711a545f-0cee-49c5-a98c-307e37f41142</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>0E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ef45b91-8a42-46af-bafe-b1b10b8aa879</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>0E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1fd525e-a75a-4e7e-b425-1aecf52b9ef0</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>0E</value>
+      <footprint>BLDC:1206_R</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59fea16d-a206-4750-9dd0-ba20dac6e1c9</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM317_TO-220</value>
+      <footprint>BLDC:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm317.pdf</datasheet>
+      <fields>
+        <field name="Order">https://www.ktron.in/product/lm317-regulator-ic-to-220/</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM317_TO-220" description="1.5A 35V Adjustable Linear Regulator, TO-220"/>
+      <property name="Order" value="https://www.ktron.in/product/lm317-regulator-ic-to-220/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93c15e7c-3470-4b64-b04d-08d50e2158c5</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM7805_TO220</value>
+      <footprint>BLDC:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</datasheet>
+      <fields>
+        <field name="Order">https://www.ktron.in/product/7805-regulator-to-220/</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM7805_TO220" description="Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"/>
+      <property name="Order" value="https://www.ktron.in/product/7805-regulator-to-220/"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BLDC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5065199d-b9c8-46e4-b111-82faffaf5e51</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4007">
+      <description>1000V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM317_TO-220">
+      <description>1.5A 35V Adjustable Linear Regulator, TO-220</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm317.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">LM317_TO-220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm317.pdf</field>
+        <field name="Order">https://www.ktron.in/product/lm317-regulator-ic-to-220/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="passive"/>
+        <pin num="2" name="VO" type="passive"/>
+        <pin num="3" name="VI" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM7805_TO220">
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
+      <docs>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">LM7805_TO220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</field>
+        <field name="Order">https://www.ktron.in/product/7805-regulator-to-220/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="VO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MMBT5551L">
+      <description>0.6A Ic, 160V Vce, NPN Transistor, SOT-23</description>
+      <docs>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT5551L</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="S8050">
+      <description>0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92</description>
+      <docs>http://www.unisonic.com.tw/datasheet/S8050.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q?</field>
+        <field name="Value">SS8050</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://www.unisonic.com.tw/datasheet/S8050.pdf</field>
+        <field name="order">https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="S8550">
+      <description>0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92</description>
+      <docs>http://www.unisonic.com.tw/datasheet/S8550.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q?</field>
+        <field name="Value">SS8550</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://www.unisonic.com.tw/datasheet/S8550.pdf</field>
+        <field name="Order">https://www.evelta.com/npn-bipolar-transistor-bjt-25v-1-5a/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF540N">
+      <description>33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF540N</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.irf.com/product-info/datasheets/data/irf540n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5VDC">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="Q17" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="Q9" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VO" pintype="passive"/>
+    </net>
+    <net code="2" name="+14VDC">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="Q11" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q19" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="passive"/>
+    </net>
+    <net code="3" name="+36VDC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="Q15" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q23" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="4" name="Avg_Current">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Fast_Current_limit">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q13" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q21" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="R48" pin="2" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="7" name="HA">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="HA_OUT">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="HB">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="HB_OUT">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="HC">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="HC_OUT">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ADJ" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="Q14" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q15" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="Q13" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q16" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="Q16" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q24" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(C19-Pad1)">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q12" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="Q22" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q23" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="Q21" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q24" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q20" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(C24-Pad2)">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q12" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q14" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q20" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q22" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(FB1-Pad1)">
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R47" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VI" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(Q9-Pad2)">
+      <node ref="Q9" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(Q10-Pad1)">
+      <node ref="Q10" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(Q10-Pad2)">
+      <node ref="Q10" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(Q10-Pad3)">
+      <node ref="Q10" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q12" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(Q11-Pad1)">
+      <node ref="Q11" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="Q9" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(Q11-Pad3)">
+      <node ref="Q11" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(Q13-Pad1)">
+      <node ref="Q13" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(Q17-Pad2)">
+      <node ref="Q17" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(Q17-Pad3)">
+      <node ref="Q17" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q19" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(Q18-Pad1)">
+      <node ref="Q18" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(Q18-Pad2)">
+      <node ref="Q18" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(Q18-Pad3)">
+      <node ref="Q18" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q20" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(Q19-Pad3)">
+      <node ref="Q19" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(Q21-Pad1)">
+      <node ref="Q21" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="PA_LOW">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="PA_PWM">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="PB_LOW">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="PB_PWM">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="PC_LOW">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="65" name="PC_PWM">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="PHASE_A">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="PHASE_B">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q14" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q15" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q16" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="PHASE_C">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q22" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q23" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q24" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
