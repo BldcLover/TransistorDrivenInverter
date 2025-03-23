@@ -563,6 +563,18 @@
     [
       "b106e329-9ec1-4501-b5a0-9c80558ba634",
       "Root"
+    ],
+    [
+      "519a9510-0349-4f9f-9fe4-5f6cb19d0435",
+      "PowerSupply"
+    ],
+    [
+      "4aef4077-c5ec-4e68-90fd-6241395e799f",
+      "PhaseA"
+    ],
+    [
+      "5a9471bb-3667-4600-a00b-7e7a2a1adbb7",
+      "DigitalSection"
     ]
   ],
   "text_variables": {}
