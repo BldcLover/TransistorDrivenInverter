@@ -569,12 +569,20 @@
       "PowerSupply"
     ],
     [
-      "4aef4077-c5ec-4e68-90fd-6241395e799f",
+      "5a9471bb-3667-4600-a00b-7e7a2a1adbb7",
+      "DigitalSection"
+    ],
+    [
+      "04ab50bb-317d-4063-8883-6e7ed753bcb0",
+      "PhaseB"
+    ],
+    [
+      "43780903-e287-49b2-bd21-cc611105e2f7",
       "PhaseA"
     ],
     [
-      "5a9471bb-3667-4600-a00b-7e7a2a1adbb7",
-      "DigitalSection"
+      "edc415a7-5785-4daa-b388-ff3892e3c24a",
+      "PhaseC"
     ]
   ],
   "text_variables": {}

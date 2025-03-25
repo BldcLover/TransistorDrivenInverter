@@ -853,6 +853,138 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse_Small"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_Small_0_1"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -2493,7 +2625,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 31.75) (xy 67.31 33.02)
+			(xy 67.31 25.4) (xy 67.31 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2550,26 +2682,6 @@
 			(type default)
 		)
 		(uuid "5e85b89f-39cd-4171-aac8-0004acb1f647")
-	)
-	(wire
-		(pts
-			(xy 66.04 21.59) (xy 67.31 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "608f90bf-edbf-4c6b-a506-2cc872b7dfa4")
-	)
-	(wire
-		(pts
-			(xy 67.31 21.59) (xy 67.31 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62ad0d00-2548-416b-b35b-4fbb3568ef8f")
 	)
 	(wire
 		(pts
@@ -2730,6 +2842,26 @@
 			(type default)
 		)
 		(uuid "8571d439-1b72-4fca-bd33-461f4d742146")
+	)
+	(wire
+		(pts
+			(xy 64.77 25.4) (xy 67.31 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88af8219-7793-4436-bdd9-1bda70934803")
+	)
+	(wire
+		(pts
+			(xy 55.88 25.4) (xy 59.69 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "892cb3fe-4d6e-4198-83ed-cdf7d58d4bd5")
 	)
 	(wire
 		(pts
@@ -3560,28 +3692,6 @@
 			)
 		)
 	)
-	(global_label "+Battery"
-		(shape input)
-		(at 66.04 21.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a876d1fc-6b73-4960-adb4-dfc6dcabd983")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.7696 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 71.12 38.1 180)
@@ -3639,6 +3749,28 @@
 		(uuid "e3e7ade9-b1ec-4e17-a9ca-faf61f3c17f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.0972 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Battery"
+		(shape input)
+		(at 55.88 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3eb8062-1197-4a21-9643-cc735e6a68a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.6096 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,76 +4142,6 @@
 			(project "ThreeShuntFocBoard"
 				(path "/b106e329-9ec1-4501-b5a0-9c80558ba634/519a9510-0349-4f9f-9fe4-5f6cb19d0435"
 					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 67.31 27.94 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b280902-1322-4294-9af5-edb5e9986cdc")
-		(property "Reference" "R47"
-			(at 69.85 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R"
-			(at 69.85 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.088 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 67.31 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68c6a926-8156-4eef-b505-12c3f647d088")
-		)
-		(pin "1"
-			(uuid "cd6efe10-9abe-447f-80ed-01ade0cdbac5")
-		)
-		(instances
-			(project ""
-				(path "/b106e329-9ec1-4501-b5a0-9c80558ba634/519a9510-0349-4f9f-9fe4-5f6cb19d0435"
-					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -5415,6 +5477,73 @@
 			(project "ThreeShuntFocBoard"
 				(path "/b106e329-9ec1-4501-b5a0-9c80558ba634/519a9510-0349-4f9f-9fe4-5f6cb19d0435"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 62.23 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5dc86ff-3f40-4c96-9991-82a5329a9283")
+		(property "Reference" "F1"
+			(at 62.23 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500mA"
+			(at 62.23 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "592ba272-682e-4a3d-baa5-9c8d1fd81736")
+		)
+		(pin "2"
+			(uuid "e2eb4144-97f2-4f4d-a319-c896e29a9839")
+		)
+		(instances
+			(project ""
+				(path "/b106e329-9ec1-4501-b5a0-9c80558ba634/519a9510-0349-4f9f-9fe4-5f6cb19d0435"
+					(reference "F1")
 					(unit 1)
 				)
 			)

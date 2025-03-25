@@ -1,0 +1,9 @@
+Commit 2:  
+        - Changed INA240 power supply to 3.3VDC instead of +5VDC, as the MCU operates at 3.3VDC.  
+        - Replaced R47 with a 500mA fuse for safety.  
+          *(Initially, I hadn't decided what component to place there, so I used R47 as a placeholder.)*  
+        - Designed additional phases and updated PWM pin naming inside each PhaseX schematic (e.g., renamed PB_PWM to PB_HIGH).  
+        - Renamed Phase A schematic:  
+          - Previously, the sheet name was Phase A, but the sheet file was named inverter.  
+          - Deleted the old inverter file and created a new PhaseA file instead.
+          - change hall sensor circuit remove GND 
