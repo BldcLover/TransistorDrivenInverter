@@ -7,3 +7,11 @@ Commit 2:
           - Previously, the sheet name was Phase A, but the sheet file was named inverter.  
           - Deleted the old inverter file and created a new PhaseA file instead.
           - change hall sensor circuit remove GND 
+Commit 3:  
+	- I have used the STM32G431C6Tx [LQFP-48] MCU and assigned all pins as per the Excel file shared in the same folder.  
+	- Peripheral connections are not yet designed as per the selection—this is still a work in progress. For now, I have only set the pins and their functionalities.  
+	- I am planning to read only Phase A and Phase B current and voltage ADCs, as the same ADC group is not available for all three phases.  
+	- Therefore, I have removed the Phase C current sensing.
+	
+	Note: Here I have used ADC1 Group for phase current, voltage and battery sense.
+
