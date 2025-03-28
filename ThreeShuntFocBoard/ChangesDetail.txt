@@ -15,3 +15,10 @@ Commit 3:
 	
 	Note: Here I have used ADC1 Group for phase current, voltage and battery sense.
 
+Commit 4:  
+	- Added load capacitors to crystal connections.  
+	- Assigned unused GPIOs as test points.  
+	- Connected PB3 (SWO) to the programming connector for debugging.  
+	- Set boot pin PB8 to weak pull-up and repurposed it as CAN_RX.  
+	- Added Pi filter before VDDA pin for improved supply filtering.  
+	- Noted used peripherals (PWM and ADCs only) in MCU section.  
