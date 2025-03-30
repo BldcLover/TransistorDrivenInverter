@@ -22,3 +22,12 @@ Commit 4:
 	- Set boot pin PB8 to weak pull-up and repurposed it as CAN_RX.  
 	- Added Pi filter before VDDA pin for improved supply filtering.  
 	- Noted used peripherals (PWM and ADCs only) in MCU section.  
+
+Commit 5:
+	- Adjusted the VDD pin connections and added decoupling capacitors.
+	- Provided a filtered supply (VDDA) to the VREF pin for improved ADC accuracy.
+	- Added a 220Ω resistor at the PF1 pin, based on the B-G431B-ESC1 schematic.
+	- Modified INA240 VS and REF2 connections, now supplying filtered VDDA for better output accuracy.
+	- Change current sense shunt value to 1milli ohm.
+
+

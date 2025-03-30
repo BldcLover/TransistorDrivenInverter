@@ -4787,6 +4787,28 @@
 			)
 		)
 	)
+	(global_label "+3.3VDC_Filtered"
+		(shape input)
+		(at 256.54 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7eb8f99d-1b9d-4a19-98b1-d3ac69b45ca7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.9143 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5VDC"
 		(shape input)
 		(at 77.47 95.25 180)
@@ -4849,28 +4871,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3VDC"
-		(shape input)
-		(at 256.54 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1463854-0591-4fe2-a441-72b702e366c3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.75 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5848,15 +5848,15 @@
 		(dnp no)
 		(uuid "43d152a6-d051-4df7-a979-4d4dd32a15a7")
 		(property "Reference" "R46"
-			(at 186.69 91.44 90)
+			(at 185.166 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0.05R"
-			(at 184.15 91.44 90)
+		(property "Value" "0.01R"
+			(at 185.674 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

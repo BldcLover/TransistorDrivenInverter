@@ -4875,28 +4875,6 @@
 			)
 		)
 	)
-	(global_label "+3.3VDC"
-		(shape input)
-		(at 134.62 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54a27692-6ca3-4e3b-896e-1adb489b7dfb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.83 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 226.06 158.75 180)
@@ -4959,6 +4937,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3.3VDC_Filtered"
+		(shape input)
+		(at 134.62 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76a21e58-24f9-418b-9af4-2600ed10a6aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.9943 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7720,15 +7720,15 @@
 		(dnp no)
 		(uuid "b8873a11-5ae4-4b08-badf-644606badbb6")
 		(property "Reference" "R49"
-			(at 64.77 142.24 90)
+			(at 61.214 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0.05R"
-			(at 62.23 142.24 90)
+		(property "Value" "0.01R"
+			(at 60.198 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
