@@ -1,0 +1,128 @@
+(footprint "47uF_25V"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.254 -1.5748 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9b546723-831f-4d59-9f3c-a9eb767896fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "47uF_25V"
+		(at 0.0508 2.4384 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b814c2e0-1469-4917-830c-1e61fd2c1c71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d830068b-e2dc-4d3c-b528-552946e9be30")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d27df89a-8442-493a-9913-fd5ccd70c3ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f8d90d2-d403-423c-8f7d-ba08e62a9fed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -0.0616 -0.2032)
+		(end -0.0616 -2.7032)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d951771c-2993-4dac-abdb-78ae6fa15c0a")
+	)
+	(fp_circle
+		(center -0.0616 -0.2032)
+		(end -0.0616 -2.7032)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "User.5")
+		(uuid "a69129af-a6a3-43dc-86f0-3d719c9ad542")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.254 -1.5748 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1b48d833-a078-4dfa-be23-83fd245186d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.061601 -0.2032)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c00e87a8-b580-42f6-9023-841966f43f7d")
+	)
+	(pad "2" thru_hole circle
+		(at 0.9384 -0.2032)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc190b58-4a2c-4da0-95d0-a6362bd7e791")
+	)
+	(model "C:/Program Files/KiCad/8.0/share/kicad/3dmodels/Capacitor_THT.3dshapes/C_Radial_D5.0mm_H7.0mm_P2.00mm.step"
+		(offset
+			(xyz -1 0.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

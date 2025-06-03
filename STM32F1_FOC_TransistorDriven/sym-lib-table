@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "XL7500A")(type "KiCad")(uri "${KIPRJMOD}/Symbol_lib/XL7500A.kicad_sym")(options "")(descr ""))
+  (lib (name "MP9486A")(type "KiCad")(uri "${KIPRJMOD}/Symbol_lib/MP9486A/MP9486A.kicad_sym")(options "")(descr ""))
+  (lib (name "IR2101")(type "KiCad")(uri "${KIPRJMOD}/Symbol_lib/IR2101.kicad_sym")(options "")(descr ""))
+)

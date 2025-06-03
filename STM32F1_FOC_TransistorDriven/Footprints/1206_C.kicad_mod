@@ -1,0 +1,211 @@
+(footprint "1206_C"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 1206, reflow soldering, Vishay (see dcrcw.pdf)")
+	(tags "resistor 1206")
+	(property "Reference" "R4"
+		(at 2.0955 -2.0955 0)
+		(layer "F.SilkS")
+		(uuid "d8185270-4d2e-4805-b4a1-dc0a1d589180")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "470E"
+		(at 1.905 2.032 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0acff003-ed24-431a-81b9-e2e25a41ab73")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d577f1e-ce01-4c9a-a4d5-4d0b6163c429")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6381c06a-7ad2-4cde-a8a8-2f83a44e82df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0955f3fa-1cde-4772-9841-f3aaec9e2b62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5715 -1.3335)
+		(end 4.3815 -1.3335)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6d84dc8-bf91-49fe-8714-e2d4f8112a72")
+	)
+	(fp_line
+		(start -0.5715 1.3335)
+		(end -0.5715 -1.3335)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1cfb1e2-ed76-4c9c-a04b-e3ab3420a471")
+	)
+	(fp_line
+		(start 4.3815 -1.3335)
+		(end 4.3815 1.3335)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e489fbf-33d7-4d39-8de1-3356ec214a92")
+	)
+	(fp_line
+		(start 4.3815 1.3335)
+		(end -0.5715 1.3335)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbb8b5f4-754f-44d8-ab29-17c78a97ca80")
+	)
+	(fp_line
+		(start -0.245 -1.11)
+		(end -0.245 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db340994-89cb-4601-8151-ac2fa74a7fff")
+	)
+	(fp_line
+		(start -0.245 -1.11)
+		(end 4.055 -1.11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "456e1c81-05f6-470f-a210-bc4d5920230b")
+	)
+	(fp_line
+		(start 4.055 1.1)
+		(end -0.245 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ccfac2fe-7754-460a-8fa4-cdbae37be81c")
+	)
+	(fp_line
+		(start 4.055 1.1)
+		(end 4.055 -1.11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1537976-b65c-4bf6-81fa-324f8f12c75c")
+	)
+	(fp_line
+		(start 0.305 -0.8)
+		(end 3.505 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1d63a19-6d2b-42ac-9103-802b2e55560a")
+	)
+	(fp_line
+		(start 0.305 0.8)
+		(end 0.305 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bca5b140-71a9-45b5-a38b-dbcaa3a01169")
+	)
+	(fp_line
+		(start 3.505 -0.8)
+		(end 3.505 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22ebf0c1-c60f-4334-b768-99d95312adf8")
+	)
+	(fp_line
+		(start 3.505 0.8)
+		(end 0.305 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26f53134-96bb-4add-96c4-dbb17d7097aa")
+	)
+	(pad "1" smd rect
+		(at 0.455 0)
+		(size 1.27 1.905)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6027300a-1ad9-41a2-b8ac-a20ef3f468d9")
+	)
+	(pad "2" smd rect
+		(at 3.355 0)
+		(size 1.27 1.905)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "10e36c98-a7af-4949-ac5e-fa2ac276fec3")
+	)
+	(model "C:/Program Files/KiCad/8.0/share/kicad/3dmodels/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+		(offset
+			(xyz 1.9 0.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,195 @@
+(footprint "LED_0603"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.026801 -1.7192 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c1284e43-0d61-4c7e-967a-b5db859a2b9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_0603"
+		(at 0.128401 1.524 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "33d80281-0738-4331-b1e8-b10e94820cc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c907b9c-6ba4-4409-b25c-d03cb521a6b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e8944ba-eb2c-41b3-a4d3-99c0e81177fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fb0f725-f2db-42ce-9b7d-30fae60fd088")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6524 -0.841203)
+		(end 1.347601 -0.841203)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "622695e9-45a3-48f7-8d39-3fa33eab493e")
+	)
+	(fp_line
+		(start -1.6524 0.5588)
+		(end -1.6524 -0.841203)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23f439ef-6bee-4524-9621-1144881dd486")
+	)
+	(fp_line
+		(start -1.6524 0.5588)
+		(end 1.347601 0.5588)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "363985b4-43da-44c3-8ac5-49f22b3445c6")
+	)
+	(fp_line
+		(start 1.347601 0.5588)
+		(end 1.347601 -0.841203)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2c808bd-cc41-49ac-88eb-b936eff44bc2")
+	)
+	(fp_line
+		(start -1.6524 -0.841203)
+		(end 1.347601 -0.841203)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "84bf2d42-6b1a-49dc-85ad-4229c157ccda")
+	)
+	(fp_line
+		(start -1.6524 0.5588)
+		(end -1.6524 -0.841203)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "1a2d7bef-f309-4412-89b6-1e95a2199aa0")
+	)
+	(fp_line
+		(start -1.6524 0.5588)
+		(end 1.347601 0.5588)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "3d355012-d2fc-4c03-ac20-adb1de81db0b")
+	)
+	(fp_line
+		(start 1.347601 0.5588)
+		(end 1.347601 -0.841203)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.5")
+		(uuid "3ca5a326-6a2b-46c2-b1f0-f2ea56e25273")
+	)
+	(fp_text user "K"
+		(at 1.535762 0.0338 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8e9daead-ada5-4d98-a751-a421645b82e7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.026801 -1.7272 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b0913a16-0be5-4654-b7e9-ca0dd73ce921")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.6476 -0.141201 180)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a1e1be18-9670-4e08-9510-c348812abd14")
+	)
+	(pad "2" smd rect
+		(at -0.952399 -0.141201 180)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5b134900-b021-42c9-939c-c2ec108d658d")
+	)
+	(model "C:/Program Files/KiCad/8.0/share/kicad/3dmodels/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(offset
+			(xyz -0.1 0.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
